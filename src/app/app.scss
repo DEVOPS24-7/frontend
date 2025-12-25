@@ -1,0 +1,16 @@
+:root {
+  --primary-bg: #0F161A;
+  --secondary-bg: #1A2128;
+  --primary-text: #E0E0E0;
+  --secondary-text: #A0A8B0;
+  --accent-color: #00E6CC; /* Bright cyan/teal for highlights */
+  --button-border: #00E6CC;
+  --grid-color: rgba(0, 230, 204, 0.08); /* Subtle grid lines */
+}
+
+body {
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+  margin: 0;
+  font-family: 'Inter', sans-serif; /* A modern font like Inter or Roboto */
+}

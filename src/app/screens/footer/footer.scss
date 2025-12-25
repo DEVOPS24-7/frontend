@@ -1,0 +1,30 @@
+.footer {
+  color: var(--primary-text);
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.4);
+  border-top: 1px solid var(--grid-color);
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  color: var(--secondary-text);
+}
+
+.footer .social-links a {
+  color: var(--secondary-text);
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1em;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: var(--accent-color);
+  }
+}
