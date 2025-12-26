@@ -55,7 +55,7 @@ jobs:
           cache-dependency-path: package-lock.json
 
       - name: Install frontend dependencies
-        working-directory: frontend
+        working-directory: ./
         run: |
           echo "All files and folders and path before build"
           pwd
@@ -64,7 +64,7 @@ jobs:
           npm install
 
       - name: Build Angular app
-        working-directory: frontend
+        working-directory: ./
         run: |
           npm run build -- --configuration=production
           sleep 10
