@@ -72,6 +72,14 @@ jobs:
           pwd
           ls -ltr
 
+      # Upload production build output
+      - name: Upload Frontend Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-build
+          path: |
+            dist/**
+
       #- name: Set up Docker
         #uses: docker/setup-buildx-action@v3
 
